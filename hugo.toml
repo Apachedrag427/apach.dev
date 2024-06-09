@@ -1,0 +1,22 @@
+baseURL = 'https://apach.dev/'
+languageCode = 'en-us'
+title = 'Apache'
+theme = 'm10c'
+
+[params]
+author = 'Apache'
+description = "I'm a hobby developer who writes mediocre code."
+avatar = '/logo.png'
+favicon = '/rounded_logo.png'
+
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/Apachedrag427"
+
+[params.style]
+  darkestColor = "#0d0b0e"
+  darkColor = "#16111a"
+  lightColor = "#e5aaff"
+  lightestColor = "#ffffff"
+  primaryColor = "#a581ff"
