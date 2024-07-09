@@ -1,3 +1,3 @@
-[submodule "themes/m10c"]
-	path = themes/m10c
-	url = https://github.com/vaga/hugo-theme-m10c
+[submodule "themes/m10c-custom"]
+	path = themes/m10c-custom
+	url = https://github.com/Apachedrag427/hugo-theme-m10c

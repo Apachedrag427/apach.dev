@@ -1,10 +1,11 @@
 baseURL = 'https://apach.dev/'
 languageCode = 'en-us'
 title = 'Apache'
-theme = 'm10c'
+theme = 'm10c-custom'
 
 [params]
 author = 'Apache'
+twitter = 'Apache'
 description = "I'm a hobby developer who writes mediocre code."
 avatar = '/logo.png'
 favicon = '/rounded_logo.png'
