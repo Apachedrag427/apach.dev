@@ -1,0 +1,21 @@
+@import url(catppuccin-mocha.min.css);
+
+:root {
+	background-color: var(--base);
+	color: var(--text);
+
+	font-family: Inter, sans-serif;
+	font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+	:root { font-family: InterVariable, sans-serif; }
+}
+
+a {
+	color: var(--red);
+	transition: 0.2s;
+}
+a:hover {
+	color: var(--mauve);
+}
