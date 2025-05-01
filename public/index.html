@@ -3,15 +3,84 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://rsms.me/">
+		<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
 		<link rel="stylesheet" href="assets/style.css">
+		
+		<style>
+			header {
+				position: relative;
+				width: 100%;
+				height: 30rem;
+				
+				display: flex;
+				flex-flow: column nowrap;
+				align-items: center;
+				justify-content: space-evenly;
+
+				img {
+					border-radius: 100%;
+					border: 0.75rem solid var(--rp-base);
+					width: 20%;
+					aspect-ratio: 1;
+					margin-top: 5rem;
+				}
+
+				h1 {
+					position: relative;
+					margin-top: -0.1rem;
+					font-size: 3.5rem;
+					background: linear-gradient(45deg, #044bdb, #f036a2);
+					-webkit-background-clip: text;
+					background-clip: text;
+					color: transparent;
+
+					.stroke {
+						position: absolute;
+						top: 0.1rem;
+						left: 0.1rem;
+
+						background: linear-gradient(45deg, #0036a1, #bf1478);
+						-webkit-background-clip: text;
+						background-clip: text;
+						z-index: -1;
+					}
+				}
+			}
+
+			.hero-bg {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				width: 100%;
+				height: 50%;
+				background: linear-gradient(45deg, #0138a7, #c5187c);
+			}
+		</style>
+		
 		<title>Apache</title>
 	</head>
 	<body>
-		<h1>Hi, I'm Apache</h1>
-		<p>I write code sometimes</p>
-		<p>Check out some games at <a href="https://games.apach.dev/">games.apach.dev</a></p>
-		<p>Check out my code at my <a href="https://github.com/Apachedrag427">Github</a> and <a href="https://git.apach.dev/apache">Forgejo</a></p>
-		<p>You lost <a href="the-game">The Game</a></p>
+		<header>
+			<div class="hero-bg"></div>
+			<img src="assets/biglogo.webp" alt="logo">
+			<h1>Apache<span class="stroke">Apache</span></h1>
+		</header>
+		
+		<main>
+			<h1>Who am I?</h1>
+			<p>I'm a programmer, (very new) artist, and (very new) youtuber.  I've dabbled in automation, apps, games, plugins, websites, and more! </p>
+			<h1>Where can I find your work?</h1>
+			<p>
+				You can find my work at
+				<a href="https://github.com/Apachedrag427">Github</a>,
+				<a href="https://git.apach.dev/apache">Forgejo</a>,
+				and <a href="https://youtube.com/@apachedrag427">Youtube</a>
+			</p>
+			<h1>How can I support you?</h1>
+			<p>You can support me at my new <a href="https://ko-fi.com/apajer">Ko-fi</a>!</p>
+		</main>
 	</body>
 </html>
