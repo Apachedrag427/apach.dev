@@ -83,3 +83,14 @@ a {
 a:hover {
 	color: var(--rp-rose);
 }
+
+.fancy-card {
+	padding: 0.5rem;
+	
+	.fancy-card-outline {
+		margin: -0.5rem;
+	}
+	.fancy-card-content {
+		background-color: var(--rp-overlay);
+	}
+}
